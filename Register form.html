@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <style>
+       body {background-color: rgb(154, 235, 154);
+        margin:10px 50px 50px 450px;
+    }
+
+        
+    </style>
+    <body>
+        <h2>Text input fields</h2>
+    <form>
+        <label for="name">First name:</label><br>
+        <input type="text" id="name" name="name" ><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+        <input type="radio" name="fav_language" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="radio" name=""fav_language" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" name=""fav_language" value="Python">
+        <label for="python">PYTHON</label><br><input type="radio" name=""fav_language" value="CSS">
+        <label for="css">CSS</label><br><br><br>
+        <input type="checkbox" name="vehicle1" value="Bike">
+        <label for="vehicle1">I have a bike</label><br>
+        <input type="checkbox" name="vehicle2" value="Car">
+        <label for="vehicle2">I have a car</label><br>
+        <input type="checkbox" name="vehicle3" value="boat">
+        <label for="vehicle3">I have a boat</label><br>
+        <input type="submit"value="submit"><br><br>
+    </form>
+    <form action="w3schools.com" target="blank">
+        <label for="fname">First name:</label><br>
+        <input type="text" ><br><br>
+        <input type="submit"value="submit"><br><br>
+    </form>
+    <form action="/action_page.php">
+        <label for="cars">Choose a car:</label>
+        <select id="cars" name="cars">
+        <option value="volvo">volvo</option>
+        <option value="fiat">fiat</option>
+        </select>
+        <input type="submit"><br><br>
+    </form>
+    <form action="/action_page.php">
+        <label for="cars">choose a car:</label>
+        <select id ="cars" name="cars" size="3">
+            <option value="volvo">Volvo</option>
+            <option value="Fiat">Fiat</option>
+            <option value="audi">audi</option>
+        </select>
+        <input type="submit"><br><br>
+        <textarea name="message" rows="10" cols="50">
+            The cat was playing in the garden
+        </textarea><br><br>
+    </form>
+    <form action="Url">
+        <input list="fruits" name="fruits">
+        <datalist id="fruits">
+            <option value="apple">
+            <option value="banana">
+        </datalist>
+        <input type="submit">
+    </form>
+    </body>
+</html>
